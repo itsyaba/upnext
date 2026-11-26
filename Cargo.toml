@@ -1,0 +1,19 @@
+[package]
+name = "upnext"
+version = "0.1.0"
+edition = "2021"
+description = "Remembers which episode you're on for every show and resumes it in VLC"
+license = "MIT"
+repository = "https://github.com/itsyaba/upnext"
+
+[dependencies]
+gtk = { package = "gtk4", version = "0.11", features = ["v4_14"] }
+adw = { package = "libadwaita", version = "0.9", features = ["v1_6"] }
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+percent-encoding = "2"
+
+[profile.release]
+lto = true
+strip = true

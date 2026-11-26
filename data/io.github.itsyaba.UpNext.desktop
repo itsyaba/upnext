@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Up Next
+GenericName=Episode Tracker
+Comment=Remember which episode you're on and resume it in VLC
+Exec=upnext
+Icon=multimedia-video-player
+Terminal=false
+Categories=AudioVideo;Video;Player;
+Keywords=episodes;series;tv;shows;continue;resume;watch;
+StartupNotify=true
